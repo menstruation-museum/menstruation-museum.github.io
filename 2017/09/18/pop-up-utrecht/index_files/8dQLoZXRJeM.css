@@ -1,0 +1,6 @@
+
+.fixed_elem,.fixed_always{position:fixed!important}.tinyHeight .fixed_elem{position:static!important}.chrome .fixed_elem,.chrome .fixed_always{transform:translateZ(0)}.tinyHeight .chrome .fixed_elem{transform:none}
+
+@supports selector(:-moz-focusring){._19_u :not(:-moz-focusring):focus{outline:none!important}}@supports selector(:focus-visible){._19_u :not(:focus-visible):focus{outline:none!important}}
+
+.fullScreen{height:100%;width:100%}
