@@ -156,19 +156,13 @@ background-image: -webkit-gradient(linear,left top, left bottom,from(#f01533),to
 .header-filter-gradient { 
 	background: linear-gradient(45deg, rgb(168,29,132) 0%, rgb(234,57,111) 100%); 
 } 
-.hestia-top-bar, .hestia-top-bar .widget.widget_shopping_cart .cart_list {
-			background-color: #363537
-		}
-		.hestia-top-bar .widget .label-floating input[type=search]:-webkit-autofill {
-			-webkit-box-shadow: inset 0 0 0px 9999px #363537
-		}.hestia-top-bar, .hestia-top-bar .widget .label-floating input[type=search], .hestia-top-bar .widget.widget_search form.form-group:before, .hestia-top-bar .widget.widget_product_search form.form-group:before, .hestia-top-bar .widget.widget_shopping_cart:before {
+.top-notification {
+			background-color: #363537;
+			font-size: 13px;
+			color: #ffffff;
+		}.top-notification a, .top-notification .top-bar-nav li a {
 			color: #ffffff
-		} 
-		.hestia-top-bar .widget .label-floating input[type=search]{
-			-webkit-text-fill-color:#ffffff !important 
-		}.hestia-top-bar a, .hestia-top-bar .top-bar-nav li a {
-			color: #ffffff
-		}.hestia-top-bar a:hover, .hestia-top-bar .top-bar-nav li a:hover {
+		}.top-notification a:hover, .top-notification .top-bar-nav li a:hover {
 			color: #eeeeee
 		}
 h1, h2, h3, h4, h5, h6, .hestia-title, .hestia-title.title-in-content, p.meta-in-content , .info-title, .card-title,
@@ -361,7 +355,7 @@ body.custom-background { background-color: #ffffff; }
 
 			<header class="header header-with-topbar">
 			
-					<div class="hestia-top-bar">
+			<div class="top-notification">
 					<div class="container">
 			<div class="row">
 									<div class="
